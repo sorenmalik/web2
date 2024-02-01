@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+  .myvid {
+    display: none;
+  }
+  div.content {
+    display: none;
+  }
+  div.content > a.ashena {
+    display: none;
+  }
+  ul.uln {
+    display: none;
+  }
+  div.tbr > div.nbr1 > div.vdr {
+    z-index: -1;
+    position: relative;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.ftr {
+    position: absolute;
+    top: 22%;
+    z-index: 3;
+    mix-blend-mode: overlay;
+    background: rgb(200, 80, 227);
+    background: linear-gradient(
+      0deg,
+      rgba(200, 80, 227, 0.9473039215686274) 58%,
+      rgba(20, 19, 20, 0.6111694677871149) 73%,
+      rgba(133, 123, 123, 0.7400210084033614) 100%
+    );
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx {
+    display: none;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx1 {
+    display: none;
+  }
+  div.vdr > div.icn {
+    width: 50px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 10px;
+  }
+  div.vdr > div.icn > img {
+    width: 38px;
+    height: 38px;
+  }
+  div.mtp > div.mtp1 {
+    background-color: rgba(42, 57, 65, 0.189);
+    border-radius: 10px;
+    flex-direction: row;
+    font-family: khat;
+    font-size: small;
+  }
+  div.baree {
+    background-color: coral;
+  }
+}

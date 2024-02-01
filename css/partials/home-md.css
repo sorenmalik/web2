@@ -1,0 +1,89 @@
+@media (min-width: 913px) and (max-width: 1038px) {
+  .myvid {
+    display: none;
+  }
+  div.content {
+    display: none;
+  }
+  div.content > a.ashena {
+    display: none;
+  }
+
+  div.tbr {
+    width: 100%;
+    height: 100%;
+  }
+  div.tbr > div.nbr1 {
+    max-width: 100%;
+    max-height: 100vh;
+    position: fixed;
+  }
+  div.tbr > div.nbr1 > div.vdr > video {
+    z-index: -1;
+    position: relative;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.ftr {
+    height: 350px;
+    position: absolute;
+    top: 164px;
+    z-index: -1;
+    mix-blend-mode: overlay;
+    background: rgb(200, 80, 227);
+    background: linear-gradient(
+      0deg,
+      rgba(200, 80, 227, 0.9473039215686274) 58%,
+      rgba(20, 19, 20, 0.6111694677871149) 73%,
+      rgba(133, 123, 123, 0.7400210084033614) 100%
+    );
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx {
+    position: absolute;
+    z-index: 3;
+    top: 350px;
+    left: 150px;
+  }
+  div.tbr > div.nbr1 > div.vdr {
+    overflow: hidden;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx > h1 {
+    font-family: khat;
+    text-shadow: 2px 2px 14px whitesmoke;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx1 {
+    position: absolute;
+    z-index: 3;
+    top: 350px;
+    right: 150px;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx1 > h1 {
+    font-family: khat;
+    text-shadow: 2px 2px 14px whitesmoke;
+  }
+
+  div.vdr > div.icn {
+    width: 70px;
+    height: 300px;
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 60px;
+  }
+  div.vdr > div.icn > img {
+    width: 58px;
+    height: 58px;
+  }
+  div.nbr1 > div.mtp > div.mtp1 {
+    display: none;
+  }
+  div.xr > div.xr1 {
+    font-family: khat;
+    color: mediumpurple;
+    text-shadow: 1px 2px 7px gray;
+  }
+  div.baree {
+    background-color: cadetblue;
+  }
+  section.jlo {
+    display: none;
+  }
+}

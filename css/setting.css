@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: bold;
+  src: url(../fonts/IRANSansX-ExtraBold.woff2);
+}
+@font-face {
+  font-family: khat;
+  src: url(../fonts/B\ Titr\ Bold_0.woff);
+}

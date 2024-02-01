@@ -1,0 +1,44 @@
+@media (min-width: 1400px) {
+  .myvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  div.content {
+    position: fixed;
+    bottom: 200px;
+    left: 45%;
+    background: rgba(239, 239, 239, 0.45);
+    color: #f1f1f1;
+    width: 150px;
+    padding: 20px;
+  }
+  div.content > a.ashena {
+    font-family: bold;
+    text-shadow: 5px 5px 5px black;
+    color: gold;
+  }
+  div.content > a.ashena:hover {
+    color: antiquewhite;
+  }
+  div.nbr {
+    display: none;
+  }
+  div.tbr {
+    display: none;
+  }
+  div.vdr > div.icn {
+    display: none;
+  }
+  div.vdr > div.icn > img {
+    display: none;
+  }
+  div.nbr1 > div.mtp > div.mtp1 {
+    display: none;
+  }
+  section.jlo {
+    display: none;
+  }
+}

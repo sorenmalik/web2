@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: bold;
+  src: url(../fonts/IRANSansX-ExtraBold.woff2);
+}
+/*start parallax*/
+@media (min-width: 1400px) {
+  div.parallx {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding-top: 150px;
+  }
+  div.parallx > div.box1 > h1 {
+    font-family: bold;
+    text-shadow: 2px 2px 2px black;
+  }
+  div.parallx > div.box1 > h1 > span {
+    font-family: bold;
+  }
+  div.prlx {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 150px;
+    font-family: bold;
+  }
+  section.plx {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 150px;
+    font-family: bold;
+  }
+  div.baree {
+    background-color: cadetblue;
+  }
+  div.bss {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 150px;
+    font-family: bold;
+  }
+ 
+}
+@media (min-width: 1281px) and (max-width: 1400px) {
+  div.parallx {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+  }
+  div.parallx > div.box1 > h1 {
+    font-family: bold;
+    text-shadow: 2px 2px 2px black;
+  }
+  div.parallx > div.box1 > h1 > span {
+    font-family: bold;
+  }
+  div.prlx {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    font-family: bold;
+  }
+  section.plx {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 150px;
+    font-family: bold;
+  }
+  div.baree {
+    background-color: cadetblue;
+  }
+  div.bss {
+    width: 100%;
+    height: 100vh;
+    background: url(../media/s3.jpg) center center no-repeat fixed;
+    background-size: cover;
+    padding: 150px;
+    font-family: bold;
+  }
+}
+/*end parallax*/

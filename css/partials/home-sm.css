@@ -1,0 +1,98 @@
+@media (min-width: 807px) and (max-width: 913px) {
+  .myvid {
+    display: none;
+  }
+  div.content {
+    display: none;
+  }
+  div.content > a.ashena {
+    display: none;
+  }
+  div.tbr > div.nbr1 {
+    max-width: 100%;
+    max-height: 100vh;
+    position: fixed;
+  }
+  div.tbr > div.nbr1 > div.vdr > video {
+    z-index: -1;
+    position: relative;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.ftr {
+    height: 350px;
+    position: absolute;
+    top: 105px;
+    z-index: -1;
+    mix-blend-mode: overlay;
+    background: rgb(200, 80, 227);
+    background: linear-gradient(
+      0deg,
+      rgba(200, 80, 227, 0.9473039215686274) 58%,
+      rgba(20, 19, 20, 0.6111694677871149) 73%,
+      rgba(133, 123, 123, 0.7400210084033614) 100%
+    );
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx {
+    position: absolute;
+    z-index: 3;
+    top: 310px;
+    left: 150px;
+  }
+  div.tbr > div.nbr1 > div.vdr {
+    overflow: hidden;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx > h1 {
+    font-family: khat;
+    text-shadow: 2px 2px 14px whitesmoke;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx1 {
+    position: absolute;
+    z-index: 3;
+    top: 310px;
+    right: 150px;
+  }
+  div.tbr > div.nbr1 > div.vdr > div.bx1 > h1 {
+    font-family: khat;
+    text-shadow: 2px 2px 14px whitesmoke;
+  }
+  div.vdr > div.icn {
+    width: 70px;
+    height: 300px;
+    position: absolute;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+  }
+  div.vdr > div.icn > img {
+    width: 58px;
+    height: 58px;
+  }
+
+  div.nbr1 > div.mtp > div.mtp1 {
+    background: rgba(158, 152, 158, 0.258);
+    background: linear-gradient(
+      0deg,
+      rgba(63, 61, 63, 0.187) 10%,
+      rgba(71, 2, 81, 0.692) 82%
+    );
+    font-family: khat;
+    border-radius: 15px 15px 0px 0px;
+  }
+  div.nbr1 > div.mtp > div.mtp1 > h3 {
+    color: aliceblue;
+    text-shadow: 2px 1px 7px white;
+  }
+  div.nbr1 > div.mtp > div.mtp1 > p {
+    text-shadow: 2px 1px 7px black;
+  }
+  div.xr > div.xr1 {
+    font-family: khat;
+    color: mediumpurple;
+    text-shadow: 1px 2px 7px gray;
+  }
+  div.baree {
+    background-color: cadetblue;
+  }
+  section.jlo {
+    display: none;
+  }
+}
